@@ -178,10 +178,15 @@ nav .fa{
     color: #fff;
     padding-top: 150px;
 }
+.onas img{
+    float: right;
+    width: 720px;
+    z-index: -1;
+}
 .social-menu ul{
     position: absolute;
     left: 250px;
-    padding-top: 680px;
+    padding-top: 620px;
     display: flex;
 }
 .social-menu ul li{
@@ -198,16 +203,16 @@ nav .fa{
     transform: translate(0%, -10%);
     color: #d2c767;
 }
-.onas img{
-    position: absolute;
-    right: 0px;
-    width: 720px;
-    z-index: -1;
-}
-.background-circle img{
+.background-circle-1 img{
     position: absolute;
     width: 350px;
     padding-top: 550px;
     right: 35%;
+    z-index: -2;
+}
+.background-frame-1 img{
+    position: absolute;
+    width: 5px;
+    right: 0;
     z-index: -2;
 }
