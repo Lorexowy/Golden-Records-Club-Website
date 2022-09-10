@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Golden Records Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="index.html">Regulamin</a></li>
+                    <li><a href="index.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <img src="images/logo.png" alt="logogoldenrecodsclub">
+        <p>Restaurant & Pump Room</p>
+        <a href="" class="hero-btn">Menu</a>
+    </div>
+        
+
+    </section>
+
+<!--------- O nas ---------->
+
+<section class="onas">
+    <h1 class="title-lines">O nas</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.<br><br>Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <div class="social-menu">
+        <ul>
+            <li><a href="https://www.facebook.com/GoldenRecordsClub" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/goldenrecordsclub/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <img src="images/imageonas1.png" alt="onas">
+    <div class="background-circle">
+        <img src="images/Circle-1.png" alt="">
+    </div>
+</section>
+
+
+<!-----------JavaScript for Toggle Menu---------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>
