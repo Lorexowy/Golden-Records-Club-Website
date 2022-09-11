@@ -60,7 +60,7 @@ nav img{
     text-align: center;
 }
 .text-box img{
-    width: 689px;
+    max-width: 689px;
     margin: 10px 0 20px;
 }
 .text-box p{
