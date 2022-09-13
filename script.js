@@ -1,3 +1,8 @@
+// Loading animation
+
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+  })
 
 // Phone Menu navbar script 
 
