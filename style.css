@@ -281,7 +281,7 @@ nav img{
 /*------ O nas ------*/
 
 .onas{
-    background-color: #192135;
+    min-height: 100vh;
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -357,18 +357,19 @@ nav img{
     width: 350px;
     padding-top: 550px;
     right: 35%;
-    z-index: -2;
+    z-index: -1;
 }
 .background-frame-1 img{
     position: absolute;
     width: 5px;
     right: 0;
-    z-index: -2;
+    z-index: -1;
 }
 
 @media(max-width: 992px){
     .onas{
         padding-top: 50px;
+        min-height: 70vh;
         position: relative;
     }
     .title-lines{
@@ -481,6 +482,395 @@ nav img{
         color: #d2c767;
     }
     .background-frame-1 img{
+        display: none;
+    }
+}
+
+
+/*------ Nasza Restauracja ------*/
+
+.nasza-restauracja{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nr-col img{
+    width: 720px;
+    padding-left: 15px;
+}
+.background-frame-2 img{
+    position: absolute;
+    left: 0;
+    width: 5px;
+}
+.background-circle-2 img{
+    position: absolute;
+    width: 350px;
+    padding-top: 550px;
+    left: 35%;
+    z-index: -1;
+}
+.nr-col h1{
+    position: absolute;
+    right: 10%;
+    font-size: 80px;
+    font-weight: 300;
+    color: #D2AB67;
+    text-align: center;
+    padding-top: 5px;
+}
+.nr-col h1:before{
+    content:" ";
+    height: 3px;
+    width: 50px;
+    background: #D2AB67;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+
+}
+.nr-col h1:after{
+    content:" ";
+    height: 3px;
+    width: 50px;
+    background: #D2AB67;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -100px;
+  }
+.nr-col p{
+    position: absolute;
+    padding-top: 290px;
+    right: 3%;
+    width: 650px;
+    height: 438px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #fff;
+}
+.nr-col a{
+    position: absolute;
+    top: 800px;
+    right: 17%;
+}
+.hero-btn-nr{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 60px;
+    font-size: 26px;
+    font-weight: 200;
+    background: transparent;
+    cursor: pointer;
+}
+.hero-btn-nr:hover{
+    color: black;
+    border: 1px solid #fff;
+    background-color: #D2AB67;
+    transition: 0.5s;
+}
+
+@media(max-width: 992px){
+    .nasza-restauracja{
+        min-height: 70vh;
+        position: relative;
+    }
+    .nr-col h1{
+        position: absolute;
+        right: 24%;
+        font-size: 60px;
+        font-weight: 300;
+        color: #D2AB67;
+        text-align: center;
+        top: 40px;
+    }
+    .nr-col h1:before{
+        content:" ";
+        height: 3px;
+        width: 50px;
+        background: #D2AB67;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -100px;
+    
+    }
+    .nr-col h1:after{
+        content:" ";
+        height: 3px;
+        width: 50px;
+        background: #D2AB67;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -100px;
+      }
+    .nr-col p{
+        position: absolute;
+        text-align: center;
+        padding-top: 200px;
+        right: 2%;
+        width: 640px;
+        height: 438px;
+        font-size: 22px;
+        font-weight: 200;
+        color: #fff;
+    }
+    .nr-col a{
+        position: absolute;
+        top: 700px;
+        right: 30%;
+    }
+    .background-frame-2 img{
+        position: absolute;
+        left: 0;
+        width: 3px;
+    }
+    .background-circle-2 img{
+        position: absolute;
+        width: 200px;
+        padding-top: 500px;
+        left: 60%;
+        z-index: -1;
+    }
+    .nr-col img{
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+    .nasza-restauracja{
+        padding-top: 100px;
+        position: relative;
+    }
+    .nr-col h1{
+        position: absolute;
+        right: 3%;
+        font-size: 50px;
+        font-weight: 300;
+        color: #D2AB67;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .nr-col h1:before{
+        display: none;
+    
+    }
+    .nr-col h1:after{
+        display: none;
+      }
+    .nr-col p{
+        position: absolute;
+        text-align: center;
+        padding-top: 200px;
+        right: 2%;
+        width: 310px;
+        height: 438px;
+        font-size: 22px;
+        font-weight: 200;
+        color: #fff;
+    }
+    .nr-col a{
+        position: absolute;
+        top: 800px;
+        right: 10%;
+    }
+    .background-frame-2 img{
+        display: none;
+    }
+    .background-circle-2 img{
+        display: none;
+    }
+    .nr-col img{
+        display: none;
+    }
+}
+
+/*------ Pump Room ------*/
+
+.pump-room{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+}
+.pr-col h1{
+    position: absolute;
+    left: 7%;
+    font-size: 80px;
+    font-weight: 300;
+    color: #D2AB67;
+    text-align: center;
+    top: 250px;
+}
+.pr-col h1:before{
+    content:" ";
+    height: 3px;
+    width: 50px;
+    background: #D2AB67;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+
+}
+.pr-col h1:after{
+    content:" ";
+    height: 3px;
+    width: 50px;
+    background: #D2AB67;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -100px;
+  }
+.pr-col p{
+    position: absolute;
+    padding-top: 300px;
+    left: 3%;
+    width: 650px;
+    height: 438px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #fff;
+}
+.pr-col img{
+    width: 720px;
+    padding-left: 15px;
+}
+.background-frame-3 img{
+    position: absolute;
+    right: 0;
+    width: 5px;
+}
+.background-circle-3 img{
+    position: absolute;
+    width: 350px;
+    padding-top: 550px;
+    right: 35%;
+    z-index: -1;
+}
+@media(max-width: 992px){
+    .pump-room{
+        min-height: 50vh;
+        position: relative;
+    }
+    .pr-col h1{
+        position: absolute;
+        right: 7%;
+        font-size: 60px;
+        font-weight: 300;
+        color: #D2AB67;
+        text-align: center;
+        top: 40px;
+    }
+    .pr-col h1:before{
+        content:" ";
+        height: 3px;
+        width: 50px;
+        background: #D2AB67;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -25px;
+    
+    }
+    .pr-col h1:after{
+        content:" ";
+        height: 3px;
+        width: 50px;
+        background: #D2AB67;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -25px;
+      }
+    .pr-col p{
+        position: absolute;
+        text-align: center;
+        padding-top: 100px;
+        left: 4%;
+        width: 600px;
+        height: 438px;
+        font-size: 22px;
+        font-weight: 200;
+        color: #fff;
+    }
+    .pr-col a{
+        position: absolute;
+        top: 700px;
+        right: 30%;
+    }
+    .background-frame-3 img{
+        position: absolute;
+        right: 0;
+        width: 3px;
+    }
+    .background-circle-3 img{
+        position: absolute;
+        width: 200px;
+        padding-top: 300px;
+        left: 5%;
+        z-index: -1;
+    }
+    .pr-col img{
+        display: none;
+    }
+}
+@media(max-width: 768px){
+    .pump-room{
+        padding-top: 100px;
+        position: relative;
+    }
+    .pr-col h1{
+        position: absolute;
+        left: 0%;
+        font-size: 50px;
+        font-weight: 300;
+        color: #D2AB67;
+        text-align: center;
+        top: 100px;
+    }
+    .pr-col h1:before{
+        display: none;
+    
+    }
+    .pr-col h1:after{
+        display: none;
+      }
+    .pr-col p{
+        position: absolute;
+        text-align: center;
+        padding-top: 100px;
+        left: 0%;
+        width: 300px;
+        height: 438px;
+        font-size: 22px;
+        font-weight: 200;
+        color: #fff;
+    }
+    .pr-col a{
+        position: absolute;
+        top: 800px;
+        right: 10%;
+    }
+    .background-frame-3 img{
+        display: none;
+    }
+    .background-circle-3 img{
+        display: none;
+    }
+    .pr-col img{
         display: none;
     }
 }
