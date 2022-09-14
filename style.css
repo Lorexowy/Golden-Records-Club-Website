@@ -369,7 +369,7 @@ nav img{
 @media(max-width: 992px){
     .onas{
         padding-top: 50px;
-        min-height: 70vh;
+        min-height: 100vh;
         position: relative;
     }
     .title-lines{
@@ -650,7 +650,9 @@ nav img{
 @media(max-width: 768px){
     .nasza-restauracja{
         padding-top: 100px;
+        min-height: 100vh;
         position: relative;
+        border: 5px solid red;
     }
     .nr-col h1{
         position: absolute;
@@ -830,7 +832,9 @@ nav img{
 @media(max-width: 768px){
     .pump-room{
         padding-top: 100px;
+        min-height: 100vh;
         position: relative;
+        border: 5px solid red;
     }
     .pr-col h1{
         position: absolute;
