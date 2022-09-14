@@ -713,7 +713,7 @@ nav img{
     font-weight: 300;
     color: #D2AB67;
     text-align: center;
-    top: 250px;
+    top: 200px;
 }
 .pr-col h1:before{
     content:" ";
@@ -738,7 +738,7 @@ nav img{
   }
 .pr-col p{
     position: absolute;
-    padding-top: 300px;
+    padding-top: 250px;
     left: 3%;
     width: 650px;
     height: 438px;
@@ -758,7 +758,7 @@ nav img{
 .background-circle-3 img{
     position: absolute;
     width: 350px;
-    padding-top: 550px;
+    padding-top: 500px;
     right: 35%;
     z-index: -1;
 }
@@ -877,3 +877,109 @@ nav img{
         display: none;
     }
 }
+
+/*------ Kontakt ------*/
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    border: 5px solid red;
+}
+.contact h1{
+    position: center;
+    padding-top: 50px;
+    font-size: 80px;
+    font-weight: 300;
+    color: #D2AB67;
+    text-align: center;
+}
+.contact h1:before{
+    content:" ";
+    height: 3px;
+    width: 75px;
+    background: #D2AB67;
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+
+}
+.contact h1:after{
+    content:" ";
+    height: 3px;
+    width: 75px;
+    background: #D2AB67;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 500px;
+  }
+.contact p{
+    position: center;
+    font-size: 22px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+.square-background{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #0C101B;
+    left: 20%;
+}
+.square-background .fa{
+    position: absolute;
+    font-size: 40px;
+    color: #D2AB67;
+    transition: 0.5s;
+}
+.fa-phone-square{
+    top: 25px;
+    left: 33%;
+}
+.fa-envelope{
+    top: 25px;
+    right: 33%;
+}
+.fa-map-marker{
+    padding-top: 10px;
+    left: 48%;
+}
+.fa:hover{
+    transform: translate(0%, -10%);
+}
+.square-background #p-one{
+    font-size: 18px;
+    padding-top: 80px;
+}
+.square-background #p-two{
+    font-size: 18px;
+    padding-top: 60px;
+}
+.square-background #p-three{
+    color: #D2AB67;
+    font-size: 38px;
+    top: 500px;
+    transition: 0.5s;
+}
+.square-background #p-three:hover{
+    transform: translate(0%, -10%);
+}
+.square-background #p-four{
+    font-size: 18px;
+}
+.square-background #p-five{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.square-background #p-six{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.gmap_canvas{
+    position: absolute;
+    right: 80%;
+}
+
