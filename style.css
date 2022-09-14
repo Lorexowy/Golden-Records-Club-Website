@@ -652,11 +652,10 @@ nav img{
         padding-top: 100px;
         min-height: 100vh;
         position: relative;
-        border: 5px solid red;
     }
     .nr-col h1{
         position: absolute;
-        right: 3%;
+        right: 5%;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
@@ -673,7 +672,7 @@ nav img{
     .nr-col p{
         position: absolute;
         text-align: center;
-        padding-top: 200px;
+        padding-top: 150px;
         right: 2%;
         width: 310px;
         height: 438px;
@@ -834,16 +833,15 @@ nav img{
         padding-top: 100px;
         min-height: 100vh;
         position: relative;
-        border: 5px solid red;
     }
     .pr-col h1{
         position: absolute;
-        left: 0%;
+        left: 7%;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
         text-align: center;
-        top: 100px;
+        top: 0px;
     }
     .pr-col h1:before{
         display: none;
@@ -856,7 +854,7 @@ nav img{
         position: absolute;
         text-align: center;
         padding-top: 100px;
-        left: 0%;
+        left: 5%;
         width: 300px;
         height: 438px;
         font-size: 22px;
