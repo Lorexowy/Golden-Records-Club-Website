@@ -651,7 +651,7 @@ nav img{
 @media(max-width: 768px){
     .nasza-restauracja{
         padding-top: 100px;
-        min-height: 125vh;
+        min-height: 100vh;
         position: relative;
     }
     .nr-col h1{
