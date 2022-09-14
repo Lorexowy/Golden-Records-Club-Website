@@ -4,10 +4,10 @@
     font-family: 'Poppins', sans-serif;   
 }
 @media (-webkit-device-pixel-ratio: 1.25) {
-    * {
-       zoom: 80%; 
-    }
+    *{
+        zoom: 95.5%;
   }
+}
 body{
     background-color: #192135;
 }
@@ -189,6 +189,20 @@ nav img{
     height: 21px;
     z-index: 3;
 }
+@media (-webkit-device-pixel-ratio: 1.25) {
+    .text-box img{
+        zoom: 95.5%;
+    }
+    nav{
+        zoom: 95.5%;
+    }
+    nav img{
+        zoom: 95.5%;
+    }
+    .nav-links ul li{
+        zoom: 95.5%;
+    }
+  }
 
 @media(max-width: 992px){
     .text-box img{
