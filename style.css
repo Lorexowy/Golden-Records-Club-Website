@@ -432,13 +432,15 @@ nav img{
 
 @media(max-width: 768px){
     .onas{
-        padding-top: 50px;
-        min-height: 125vh;
+        width: 100%;
+        padding-top: 0px;
+        min-height: 150vh;
         position: relative;
+        border: 5px solid red;
     }
     .title-lines{
         position: absolute;
-        left: 28%;
+        left: 115px;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
@@ -446,6 +448,12 @@ nav img{
         padding-top: 5px;
         cursor: pointer;
     }
+    .title-lines:before{
+        display: none;
+     }
+     .title-lines:after{
+         display: none;
+       }
     .onas p{
         position: absolute;
         width: 100%;
@@ -464,7 +472,7 @@ nav img{
     }
     .social-menu ul{
         position: absolute;
-        left: 26%;
+        left: 28%;
         padding-top: 800px;
         display: flex;
     }
@@ -650,18 +658,18 @@ nav img{
 
 @media(max-width: 768px){
     .nasza-restauracja{
-        padding-top: 100px;
-        min-height: 100vh;
+        width: 100%;
+        min-height: 150vh;
         position: relative;
+        border: 5px solid red;
     }
     .nr-col h1{
         position: absolute;
-        right: 5%;
+        right: 10%;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
         text-align: center;
-        padding-top: 5px;
     }
     .nr-col h1:before{
         display: none;
@@ -674,7 +682,7 @@ nav img{
         position: absolute;
         text-align: center;
         padding-top: 150px;
-        right: 2%;
+        right: 9%;
         width: 310px;
         height: 438px;
         font-size: 22px;
@@ -684,7 +692,7 @@ nav img{
     .nr-col a{
         position: absolute;
         top: 800px;
-        right: 10%;
+        right: 16%;
     }
     .background-frame-2 img{
         display: none;
@@ -831,9 +839,10 @@ nav img{
 }
 @media(max-width: 768px){
     .pump-room{
-        padding-top: 100px;
-        min-height: 125vh;
+        width: 100%;
+        min-height: 100vh;
         position: relative;
+        border: 5px solid red;
     }
     .pr-col h1{
         position: absolute;
@@ -842,7 +851,6 @@ nav img{
         font-weight: 300;
         color: #D2AB67;
         text-align: center;
-        top: 0px;
     }
     .pr-col h1:before{
         display: none;
@@ -854,8 +862,7 @@ nav img{
     .pr-col p{
         position: absolute;
         text-align: center;
-        padding-top: 100px;
-        left: 5%;
+        left: 10%;
         width: 300px;
         height: 438px;
         font-size: 22px;
@@ -927,6 +934,11 @@ nav img{
     width: 500px;
     background-color: #0C101B;
     left: 20%;
+}
+@media (-webkit-device-pixel-ratio: 1.25) {
+    .square-background{
+        zoom: 90%;
+  }
 }
 .square-background .fa{
     position: absolute;
