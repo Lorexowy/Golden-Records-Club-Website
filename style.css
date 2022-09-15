@@ -8,6 +8,9 @@
         zoom: 95.5%;
   }
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-image: linear-gradient(to bottom right ,#0C101B, #192135, #192835);
 }
@@ -432,18 +435,21 @@ nav img{
 
 @media(max-width: 768px){
     .onas{
-        width: 100%;
+        width: 90%;
         padding-top: 0px;
         min-height: 150vh;
         position: relative;
     }
     .title-lines{
         position: absolute;
-        left: 115px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
-        text-align: left;
         padding-top: 5px;
         cursor: pointer;
     }
@@ -471,9 +477,11 @@ nav img{
     }
     .social-menu ul{
         position: absolute;
-        left: 28%;
+        right: 0;
+        left: 0;
+        text-align: center;
         padding-top: 800px;
-        display: flex;
+        display: inherit;
     }
     .social-menu ul li{
         list-style: none;
@@ -657,17 +665,20 @@ nav img{
 
 @media(max-width: 768px){
     .nasza-restauracja{
-        width: 100%;
+        width: 90%;
         min-height: 150vh;
         position: relative;
     }
     .nr-col h1{
         position: absolute;
-        right: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
-        text-align: center;
     }
     .nr-col h1:before{
         display: none;
@@ -678,9 +689,12 @@ nav img{
       }
     .nr-col p{
         position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
         text-align: center;
         padding-top: 150px;
-        right: 9%;
         width: 310px;
         height: 438px;
         font-size: 22px;
@@ -690,7 +704,9 @@ nav img{
     .nr-col a{
         position: absolute;
         top: 800px;
-        right: 16%;
+        right: 0;
+        left: 0;
+        text-align: center;
     }
     .background-frame-2 img{
         display: none;
@@ -842,8 +858,10 @@ nav img{
         position: relative;
     }
     .pr-col h1{
-        position: absolute;
-        left: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
         font-size: 50px;
         font-weight: 300;
         color: #D2AB67;
@@ -857,9 +875,11 @@ nav img{
         display: none;
       }
     .pr-col p{
-        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
         text-align: center;
-        left: 10%;
         width: 300px;
         height: 438px;
         font-size: 22px;
@@ -889,6 +909,12 @@ nav img{
     min-height: 100vh;
     width: 100%;
 }
+.row #cntct{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact h1{
     position: center;
     padding-top: 50px;
@@ -990,4 +1016,71 @@ nav img{
     position: absolute;
     right: 80%;
 }
-
+@media(max-width: 992px){
+    .contact{
+        position: relative;
+        min-height: 125vh;
+        width: 100%;
+    }
+    .contact h1:before{
+        left: 600px;
+    }
+    .contact h1:after{
+        right: 600px;
+    }
+    .square-background{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #0C101B;
+    }
+    .row #cntct{
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .gmap_canvas{
+        display: none;
+    }
+}
+@media(max-width: 768px){
+    .contact{
+        position: relative;
+        width: 100%;
+    }
+    .contact h1{
+        position: center;
+        padding-top: 50px;
+        font-size: 50px;
+        font-weight: 300;
+        color: #D2AB67;
+        text-align: center;
+    }
+    .contact h1:before{
+        display: none;
+    }
+    .contact h1:after{
+        display: none;
+      }
+    .square-background{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        height: 550px;
+        width: 350px;
+        background-color: #0C101B;
+    }
+    .mapouter{
+        display:none;
+    }
+    .gmap_canvas{
+        display: none;
+    }
+}
