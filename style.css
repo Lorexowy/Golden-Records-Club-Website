@@ -9,7 +9,7 @@
   }
 }
 body{
-    background-color: #192135;
+    background-image: linear-gradient(to bottom right ,#0C101B, #192135, #192835);
 }
 .header{
     min-height: 100vh;
@@ -436,7 +436,6 @@ nav img{
         padding-top: 0px;
         min-height: 150vh;
         position: relative;
-        border: 5px solid red;
     }
     .title-lines{
         position: absolute;
@@ -661,7 +660,6 @@ nav img{
         width: 100%;
         min-height: 150vh;
         position: relative;
-        border: 5px solid red;
     }
     .nr-col h1{
         position: absolute;
@@ -842,7 +840,6 @@ nav img{
         width: 100%;
         min-height: 100vh;
         position: relative;
-        border: 5px solid red;
     }
     .pr-col h1{
         position: absolute;
