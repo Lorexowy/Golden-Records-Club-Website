@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
   }
 body{
-    background-image: linear-gradient(to bottom right ,#0C101B, #192135, #192835);
+    background-image: linear-gradient(to bottom right ,#0C101B, #192135, #192835, #193335);
 }
 .header{
     min-height: 100vh;
