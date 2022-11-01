@@ -519,7 +519,7 @@ nav img{
     display: flex;
     justify-content: space-between;
 }
-.nr-col img{
+.nr-col{
     width: 720px;
     padding-left: 15px;
 }
