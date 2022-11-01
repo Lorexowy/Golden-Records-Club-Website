@@ -39,3 +39,4 @@ appearOptions);
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
+
