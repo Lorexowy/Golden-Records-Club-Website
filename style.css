@@ -762,7 +762,7 @@ nav img{
   }
 .pr-col p{
     position: absolute;
-    padding-top: 200px;
+    padding-top: 2px;
     left: 3%;
     width: 650px;
     height: 438px;
@@ -1008,11 +1008,18 @@ nav img{
 }
 .square-background #p-five{
     font-size: 18px;
-    padding-top: 15px;
+    padding-top: 18px;
 }
 .square-background #p-six{
     font-size: 18px;
-    padding-top: 15px;
+    margin-left: 10%;
+}
+.square-background #p-seven{
+    font-size: 18px;
+}
+.square-background #p-eight{
+    font-size: 18px;
+    margin-right: 10%;
 }
 .gmap_canvas{
     position: absolute;
@@ -1084,6 +1091,17 @@ nav img{
     }
     .gmap_canvas{
         display: none;
+    }
+    .square-background #p-six{
+        font-size: 18px;
+        margin-left: 1%;
+    }
+    .square-background #p-seven{
+        font-size: 18px;
+    }
+    .square-background #p-eight{
+        font-size: 18px;
+        margin-right: 1%;
     }
 }
 
