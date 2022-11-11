@@ -12,7 +12,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(32,42,68,0.7),rgba(32,42,68,0.5)), url(images/background2.png);
+    background-image: linear-gradient(rgba(32,42,68,0.7),rgba(32,42,68,0.5)), url(images/background3.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
